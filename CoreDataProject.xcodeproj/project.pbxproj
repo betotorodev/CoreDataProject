@@ -17,6 +17,7 @@
 		18EEA0372894375C00294628 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA0352894375C00294628 /* Movie+CoreDataClass.swift */; };
 		18EEA0382894375C00294628 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA0362894375C00294628 /* Movie+CoreDataProperties.swift */; };
 		18EEA03A28943BDC00294628 /* hasChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA03928943BDC00294628 /* hasChangesView.swift */; };
+		18EEA03C2894475400294628 /* WizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA03B2894475400294628 /* WizardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		18EEA0352894375C00294628 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		18EEA0362894375C00294628 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		18EEA03928943BDC00294628 /* hasChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasChangesView.swift; sourceTree = "<group>"; };
+		18EEA03B2894475400294628 /* WizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				18EEA0362894375C00294628 /* Movie+CoreDataProperties.swift */,
 				18EEA01F28942BFC00294628 /* CoreDataProjectApp.swift */,
 				18EEA02128942BFC00294628 /* ContentView.swift */,
+				18EEA03B2894475400294628 /* WizardView.swift */,
 				18EEA03928943BDC00294628 /* hasChangesView.swift */,
 				18EEA02328942BFF00294628 /* Assets.xcassets */,
 				18EEA02528942BFF00294628 /* Preview Content */,
@@ -166,6 +169,7 @@
 				18EEA03228942CFB00294628 /* DataControler.swift in Sources */,
 				18EEA02228942BFC00294628 /* ContentView.swift in Sources */,
 				18EEA0342894347D00294628 /* SelfExplanation.swift in Sources */,
+				18EEA03C2894475400294628 /* WizardView.swift in Sources */,
 				18EEA02028942BFC00294628 /* CoreDataProjectApp.swift in Sources */,
 				18EEA0372894375C00294628 /* Movie+CoreDataClass.swift in Sources */,
 				18EEA0382894375C00294628 /* Movie+CoreDataProperties.swift in Sources */,
