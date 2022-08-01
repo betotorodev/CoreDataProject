@@ -12,6 +12,11 @@
 		185795DC28981C4000B7DEB8 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185795DA28981C4000B7DEB8 /* Singer+CoreDataProperties.swift */; };
 		185795DE28981DC100B7DEB8 /* SingersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185795DD28981DC100B7DEB8 /* SingersView.swift */; };
 		185795E028981E2E00B7DEB8 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185795DF28981E2E00B7DEB8 /* FilteredList.swift */; };
+		185795E52898661400B7DEB8 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185795E12898661400B7DEB8 /* Country+CoreDataClass.swift */; };
+		185795E62898661400B7DEB8 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185795E22898661400B7DEB8 /* Country+CoreDataProperties.swift */; };
+		185795E72898661400B7DEB8 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185795E32898661400B7DEB8 /* Candy+CoreDataClass.swift */; };
+		185795E82898661400B7DEB8 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185795E42898661400B7DEB8 /* Candy+CoreDataProperties.swift */; };
+		185795EA28986B6600B7DEB8 /* RelationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185795E928986B6600B7DEB8 /* RelationsView.swift */; };
 		18EEA02028942BFC00294628 /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA01F28942BFC00294628 /* CoreDataProjectApp.swift */; };
 		18EEA02228942BFC00294628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA02128942BFC00294628 /* ContentView.swift */; };
 		18EEA02428942BFF00294628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EEA02328942BFF00294628 /* Assets.xcassets */; };
@@ -31,6 +36,11 @@
 		185795DA28981C4000B7DEB8 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		185795DD28981DC100B7DEB8 /* SingersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingersView.swift; sourceTree = "<group>"; };
 		185795DF28981E2E00B7DEB8 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		185795E12898661400B7DEB8 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		185795E22898661400B7DEB8 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		185795E32898661400B7DEB8 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		185795E42898661400B7DEB8 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		185795E928986B6600B7DEB8 /* RelationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationsView.swift; sourceTree = "<group>"; };
 		18EEA01C28942BFC00294628 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EEA01F28942BFC00294628 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		18EEA02128942BFC00294628 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +85,10 @@
 		18EEA01E28942BFC00294628 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				185795E12898661400B7DEB8 /* Country+CoreDataClass.swift */,
+				185795E22898661400B7DEB8 /* Country+CoreDataProperties.swift */,
+				185795E32898661400B7DEB8 /* Candy+CoreDataClass.swift */,
+				185795E42898661400B7DEB8 /* Candy+CoreDataProperties.swift */,
 				185795D928981C4000B7DEB8 /* Singer+CoreDataClass.swift */,
 				185795DA28981C4000B7DEB8 /* Singer+CoreDataProperties.swift */,
 				18EEA02D28942CAD00294628 /* CoreDataField */,
@@ -87,6 +101,7 @@
 				185795D7289815E200B7DEB8 /* PredicateView.swift */,
 				185795DD28981DC100B7DEB8 /* SingersView.swift */,
 				185795DF28981E2E00B7DEB8 /* FilteredList.swift */,
+				185795E928986B6600B7DEB8 /* RelationsView.swift */,
 				18EEA02328942BFF00294628 /* Assets.xcassets */,
 				18EEA02528942BFF00294628 /* Preview Content */,
 				18EEA0332894347D00294628 /* SelfExplanation.swift */,
@@ -184,16 +199,21 @@
 				18EEA03228942CFB00294628 /* DataControler.swift in Sources */,
 				185795DC28981C4000B7DEB8 /* Singer+CoreDataProperties.swift in Sources */,
 				18EEA02228942BFC00294628 /* ContentView.swift in Sources */,
+				185795E72898661400B7DEB8 /* Candy+CoreDataClass.swift in Sources */,
 				185795DB28981C4000B7DEB8 /* Singer+CoreDataClass.swift in Sources */,
+				185795E62898661400B7DEB8 /* Country+CoreDataProperties.swift in Sources */,
 				185795D8289815E200B7DEB8 /* PredicateView.swift in Sources */,
 				18EEA0342894347D00294628 /* SelfExplanation.swift in Sources */,
 				185795E028981E2E00B7DEB8 /* FilteredList.swift in Sources */,
 				185795DE28981DC100B7DEB8 /* SingersView.swift in Sources */,
+				185795E52898661400B7DEB8 /* Country+CoreDataClass.swift in Sources */,
 				18EEA03C2894475400294628 /* WizardView.swift in Sources */,
 				18EEA02028942BFC00294628 /* CoreDataProjectApp.swift in Sources */,
 				18EEA0372894375C00294628 /* Movie+CoreDataClass.swift in Sources */,
 				18EEA0382894375C00294628 /* Movie+CoreDataProperties.swift in Sources */,
+				185795E82898661400B7DEB8 /* Candy+CoreDataProperties.swift in Sources */,
 				18EEA03028942CD000294628 /* CoreDataProject.xcdatamodeld in Sources */,
+				185795EA28986B6600B7DEB8 /* RelationsView.swift in Sources */,
 				18EEA03A28943BDC00294628 /* hasChangesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
