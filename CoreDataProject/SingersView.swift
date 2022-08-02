@@ -13,7 +13,7 @@ struct SingersView: View {
   
   var body: some View {
     VStack {
-      FilteredList(filter: lastNameFilter, predicate: .beginsWith)
+      FilteredList(filter: lastNameFilter, predicate: .beginsWith, sortedArray: [SortDescriptor(\.lastName)])
       
       Button("Add Examples") {
         let taylor = Singer(context: moc)

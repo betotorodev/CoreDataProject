@@ -13,7 +13,7 @@ enum PredicateTypes {
 struct FilteredList: View {
   @FetchRequest var fetchRequest: FetchedResults<Singer>
   
-  init(filter: String, predicate: PredicateTypes) {
+  init(filter: String, predicate: PredicateTypes, sortedArray: [SortDescriptor<Singer>]) {
     let predicateType: String
     switch predicate {
       case .beginsWith:
@@ -23,7 +23,7 @@ struct FilteredList: View {
       case .include:
       predicateType = "IN"
     }
-    _fetchRequest = FetchRequest<Singer>(sortDescriptors: [], predicate: NSPredicate(format: "lastName \(predicateType) %@", filter))
+    _fetchRequest = FetchRequest<Singer>(sortDescriptors: sortedArray, predicate: NSPredicate(format: "lastName \(predicateType) %@", filter))
   }
   
   var body: some View {
