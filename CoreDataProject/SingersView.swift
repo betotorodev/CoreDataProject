@@ -13,7 +13,7 @@ struct SingersView: View {
   
   var body: some View {
     VStack {
-      FilteredList(filter: lastNameFilter)
+      FilteredList(filter: lastNameFilter, predicate: "BEGINSWITH")
       
       Button("Add Examples") {
         let taylor = Singer(context: moc)

@@ -10,8 +10,8 @@ import SwiftUI
 struct FilteredList: View {
   @FetchRequest var fetchRequest: FetchedResults<Singer>
   
-  init(filter: String) {
-    _fetchRequest = FetchRequest<Singer>(sortDescriptors: [], predicate: NSPredicate(format: "lastName BEGINSWITH %@", filter))
+  init(filter: String, predicate: String) {
+    _fetchRequest = FetchRequest<Singer>(sortDescriptors: [], predicate: NSPredicate(format: "lastName \(predicate) %@", filter))
   }
   
   var body: some View {
