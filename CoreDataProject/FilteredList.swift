@@ -7,11 +7,23 @@
 
 import SwiftUI
 
+enum PredicateTypes {
+  case beginsWith, equal, include
+}
 struct FilteredList: View {
   @FetchRequest var fetchRequest: FetchedResults<Singer>
   
-  init(filter: String, predicate: String) {
-    _fetchRequest = FetchRequest<Singer>(sortDescriptors: [], predicate: NSPredicate(format: "lastName \(predicate) %@", filter))
+  init(filter: String, predicate: PredicateTypes) {
+    let predicateType: String
+    switch predicate {
+      case .beginsWith:
+      predicateType = "BEGINSWITH"
+      case .equal:
+      predicateType = "=="
+      case .include:
+      predicateType = "IN"
+    }
+    _fetchRequest = FetchRequest<Singer>(sortDescriptors: [], predicate: NSPredicate(format: "lastName \(predicateType) %@", filter))
   }
   
   var body: some View {
